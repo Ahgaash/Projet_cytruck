@@ -21,7 +21,7 @@ set datafile separator ";"
 plot 'd2.txt' using 1:xtic(2) with boxes lc rgb "black" notitle 
 EOF
 
-convert graph_temp.png -rotate 90 graph_d2.png
+convert graph_temp.png -rotate 90 graph_D2.png
 
 rm graph_temp.png
 
