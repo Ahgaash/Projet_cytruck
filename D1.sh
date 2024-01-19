@@ -20,10 +20,9 @@ set ytics rotate by 90
 set xtics rotate out
 set boxwidth 0.5 
 set datafile separator ";" 
-# Utilisez une fonction pour récupérer les noms
+
 plot 'datak1.txt' using 1:xtic(2) with boxes lc rgb "red" notitle 
 
-# Ajoutez une marge entre les barres (10% de la largeur totale)
 
 set style histogram cluster gap 1
 EOF
