@@ -1,0 +1,51 @@
+#!/bin/bash
+
+
+while true; do
+    clear
+    make
+    echo " "
+    echo  "                 🚚 ** CY TRUCK ** 🚚  "
+    echo " "
+    echo "1. Traitement -D1                    2. Traitement -D2"
+    echo " "
+    echo "3. Traitement -L                     4. Traitement -T"
+    echo " "
+    echo "5. Traitement -S                         0. Quitter"
+    echo""
+    read -p "Choisissez un traitement (0-5): " choix
+    echo""
+
+    case $choix in
+        0)
+            echo "Au revoir !"
+            exit 0
+            ;;
+        1)
+            echo "Vous avez choisi le Traitement -d1"
+            bash D1.sh
+            ;;
+        2)
+            echo "Vous avez choisi le Traitement -d2"
+            bash D2.sh
+            ;;
+        3)
+            echo "Vous avez choisi le Traitement -L"
+            bash L.sh
+            ;;
+        4)
+            echo "Vous avez choisi le Traitement -T"
+            bash T.sh
+            ;;
+        5)
+            echo "Vous avez choisi le Traitement -S"
+            bash S2.sh
+            ;;
+        *)
+            echo "Choix invalide. Veuillez choisir une option entre 0 et 5."
+            ;;
+    esac
+
+    read -p "Appuyez sur Entrée pour continuer..."
+done
+
