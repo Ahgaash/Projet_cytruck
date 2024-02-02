@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include "traits.h"
 
+// Ce programme est utilisé pour le traitement S
+
 // Fonction pour créer un nouveau trajet (qui sera envoyé dans un AVL)
 Trajet *creertrajet(int id, float dist) {
     Trajet *nv = malloc(sizeof(Trajet));
