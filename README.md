@@ -49,6 +49,9 @@ Le traitement S : qui affiche les statistiques des routes ID
 - Créer un dossier projet et transférer tous les fichier du github dans ce fichier (projet)
 - Accéder avec le terminal au fichier projet
 - Entrer dans le terminale "bash CY_Truck"
+- Petite précision pour des raisons techniques avec le Makefile les traitements T et S doivent être confirmer avant de
+  pouvoir être lancé, veillez donc bien à confirmer le traitement que vous avez choisi
+  
 
 
 
