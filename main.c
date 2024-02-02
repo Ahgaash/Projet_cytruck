@@ -3,7 +3,7 @@
 #include "traits.h"
 
 
-// Ce programme joins les code C du traitement S et T 
+// Ce programme joint les code C du traitement S et T 
 
 int main() {
     int choix;
