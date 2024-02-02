@@ -57,8 +57,10 @@ Le traitement S : qui affiche les statistiques des routes ID
 
 ********************************************* BUG ************************************************************************
 
-Aucun bug n'a été observé pour le moment. 
+Mise à part dans le traitement T le problème avec les villes qui ont des arrondissement aucun bug n'a été observé pour le moment. 
 
-Si vous rencontrez un bug veuillez le signaler à l'adresse mail suivante : 
+Si vous rencontrez un bug veuillez le signaler à une des adresses mails suivantes : 
 
 blardoneti@cy-tech.fr 
+chhibielya@cy-tech.fr
+muraleeswa@cy_tech.fr
