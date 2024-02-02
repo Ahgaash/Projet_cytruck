@@ -46,7 +46,8 @@ Le traitement S : qui affiche les statistiques des routes ID
 
  Pour utiliser le programme :
 - Télécharger tous les fichiers du github
-- Créer un dossier projet et transférer tous les fichier du github dans ce fichier (projet)
+- Créer un dossier projet et transférer tous les fichier du github dans ce dossier (projet)
+- ATTENTION : Renomer votre fichier à trier data.csv et ajouter le dans dossier projet
 - Accéder avec le terminal au fichier projet
 - Entrer dans le terminale "bash CY_Truck"
 - Petite précision pour des raisons techniques avec le Makefile les traitements T et S doivent être confirmer avant de
