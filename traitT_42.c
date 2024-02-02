@@ -6,6 +6,8 @@
 #define MAX_LINE_LENGTH 256
 #define MAX_VILLES 100
 
+// Ce programme est utilisé pour le traitement T
+
 
 // Fonction pour créer une nouvelle ville
 Ville *nouvelleVille(char nom[]) {
