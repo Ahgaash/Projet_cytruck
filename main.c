@@ -2,6 +2,9 @@
 #include "traitT.h"
 #include "traits.h"
 
+
+// Ce programme joins les code C du traitement S et T 
+
 int main() {
     int choix;
     printf("\n\n");
