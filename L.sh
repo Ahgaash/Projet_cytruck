@@ -4,7 +4,7 @@
 temps_debut=$(date +%s)
 
 # Utilise cat, cut et awk pour extraire et sommer les distances par route à partir des colonnes 1 et 5 du fichier data.csv
-cat data.csv | cut -d ';' -f1,5 | awk -F';' '{distances[$1] += $2} END {for (id in distances) printf "%s;%.3f\n", id, distances[id]}' | sort -nr -t ';' -k2 | head -10 | sort -nr -t ';' -k1 > lfinal.txt 
+cat data.csv | cut -d ';' -f1,5 | awk -F';' '{distances[$1] += $2} END {for (id in distances) printf "%s;%.3f\n", id, distances[id]}' | sort -nr -t ';' -k2 | head -10 | sort -nr -t ';' -k1 > resultat_L.txt 
 
 # Utilisation de gnuplot pour générer un histogramme des distances par route
 gnuplot << EOF
@@ -22,7 +22,7 @@ set autoscale xfix
 set datafile separator ";" 
 
 # Utilise une couleur "skyblue" pour les barres
-plot "lfinal.txt" using 2:xtic(1) with boxes notitle lc rgb "skyblue"
+plot "resultat_L.txt" using 2:xtic(1) with boxes notitle lc rgb "skyblue"
 EOF
 
 # Enregistre le temps de fin de l'exécution du script
