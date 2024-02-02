@@ -24,6 +24,6 @@ set xtics rotate out
 plot 'temp1.txt' using 1:3:4 with filledcurve title 'Min-Max' lc rgb 'green', \
      'temp1.txt' using 1:5:xticlabels(2) with lines linecolor rgb "red" title 'Moy'
 EOF
-
+rm s2.txt
 # Ouvre l'image générée avec le visualiseur d'image par défaut sur le système
 xdg-open graph_S.png
