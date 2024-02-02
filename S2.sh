@@ -3,7 +3,7 @@
 # Extraction des colonnes 1 et 5 du fichier data.csv et sauvegarde dans s2.txt
 cat data.csv | cut -d ';' -f1,5 > s2.txt
 
-# Exécution du programme ./prog (supposant que cela génère un fichier resultat_s2.txt)
+# Exécution du programme prog 
 ./prog
 
 # Extraction des colonnes nécessaires à partir de resultat_s2.txt et sauvegarde dans temp1.txt
